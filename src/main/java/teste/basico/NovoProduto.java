@@ -10,7 +10,7 @@ public class NovoProduto {
         DAO<Produto> produtoDAO = new DAO<>(Produto.class);
 
         Produto produto = new Produto("Monitor 23", 789.98);
-        produtoDAO.incluirAtomico(produto).fechar();
+        produtoDAO.incluirAtomico(produto).fecharConexao();
 
         System.out.println("ID do produto: " + produto.getId());
     }

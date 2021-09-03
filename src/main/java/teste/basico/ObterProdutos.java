@@ -1,7 +1,7 @@
 package teste.basico;
 
 import modelo.basico.Produto;
-import modelo.basico.ProdutoDAO;
+import infra.ProdutoDAO;
 
 import java.util.List;
 
@@ -28,7 +28,7 @@ public class ObterProdutos {
         System.out.println("O valor total é: R$" + precoTotal);
         System.out.println("O valor total otimizado é: R$" + precoTotalOtimizado);
 
-        produtoDAO.fechar();
+        produtoDAO.fecharConexao();
 
     }
 }

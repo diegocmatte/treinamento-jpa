@@ -48,6 +48,10 @@ public class DAO<E> {
         return this.abrirTransacao().incluir(entidade).fecharTransacao();
     }
 
+    public E obterPorID(Object id){
+        return em.find(classe, id);
+    }
+
     public List<E> obterTodos(){
         return this.obterTodos(10,0);
     }
@@ -65,7 +69,7 @@ public class DAO<E> {
         return query.getResultList();
     }
 
-    public void fechar(){
+    public void fecharConexao(){
         em.close();
     }
 }
