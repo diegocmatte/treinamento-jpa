@@ -10,14 +10,24 @@
 
         <class>modelo.basico.Usuario</class>
         <class>modelo.basico.Produto</class>
+
         <class>modelo.umparaum.Assento</class>
         <class>modelo.umparaum.Cliente</class>
+
         <class>modelo.umparamuitos.ItemPedido</class>
         <class>modelo.umparamuitos.Pedido</class>
+
         <class>modelo.muitosparamuitos.Sobrinho</class>
         <class>modelo.muitosparamuitos.Tio</class>
         <class>modelo.muitosparamuitos.Ator</class>
         <class>modelo.muitosparamuitos.Filme</class>
+
+        <class>modelo.composicao.Endereco</class>
+        <class>modelo.composicao.Fornecedor</class>
+        <class>modelo.composicao.Funcionario</class>
+
+        <class>modelo.heranca.Aluno</class>
+        <class>modelo.heranca.AlunoBolsista</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver"
