@@ -13,6 +13,8 @@
         <class>modelo.umparamuitos.Pedido</class>
         <class>modelo.muitosparamuitos.Sobrinho</class>
         <class>modelo.muitosparamuitos.Tio</class>
+        <class>modelo.muitosparamuitos.Ator</class>
+        <class>modelo.muitosparamuitos.Filme</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver"
